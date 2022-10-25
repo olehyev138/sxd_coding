@@ -1,0 +1,24 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.img{
+    max-width: 50%;
+    max-height: 50vh;
+    margin: auto;
+    align-items:center ;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.btnedit{
+    margin-top: 50px;
+    align-self: center !important;
+    margin-left: 200px;
+    background-color: aquamarine;
+    padding: 15px;
+    border-width: 0;
+}
+.direction{
+    flex-direction: column;
+}
+.txt{
+    color: red;
+}

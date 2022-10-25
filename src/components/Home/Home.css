@@ -1,0 +1,71 @@
+.mainHolder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90% !important;
+  margin-left: 30px !important;
+  margin-top: 10px;
+}
+.main{
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.mainHolder:hover .overlay {
+  opacity: 1;
+}
+.image{
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: 100px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-top: -40%;
+  align-self: center;
+}
+.container{
+  margin-bottom: 20px;
+  margin: 10px;
+  width: 1000;
+  height: 600;
+}
+.upload{
+  margin-left: 30px;
+}
+.heading{
+  margin-left: 30px;
+}
+.uploadimg{
+  width: 80px;
+  height: 80px;
+}
+.flexrow{
+  flex-direction: row;
+  display: flex;
+}
